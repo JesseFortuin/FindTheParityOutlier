@@ -8,6 +8,6 @@ namespace FindTheParityOutlier.BL
 {
     public interface IOutlierFinder
     {
-
+        public int Find(int[] integers);
     }
 }
